@@ -1,0 +1,58 @@
+/* Estilos para la columna de información */
+.columna-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .columna-info {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .columna-info > div {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  /* Estilos para los botones en la pestaña de configuración */
+  .tyc2 {
+    min-width: 200px;
+    height: 48px;
+  }
+  
+  /* Contenedor horizontal para los botones */
+.horizontal-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.horizontal-buttons-container > * {
+  height: 48px;
+}
+  
+  /* Estilos para los h2 dentro de los botones */
+  .horizontal-buttons-container h2,
+  .horizontal-buttons-container .MuiTypography-root {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Asegurar que el scroll sea suave en dispositivos táctiles */
+/* sin scroll horizontal */
+  
+  

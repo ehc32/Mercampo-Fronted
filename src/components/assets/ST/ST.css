@@ -1,0 +1,6 @@
+.rotaricon {
+    transform: rotate(90deg) scaley(.6);
+    scale: 2;
+    margin-top: .5em;
+    color: #fff;
+}

@@ -1,0 +1,195 @@
+.cardbody {
+    height: 27em;
+    max-width: 350px;
+    background-color: #fff;
+    margin: 1em auto !important;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, .1);
+    border-radius: 7px;
+    transition: all .5s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBodyLight {
+    margin: 1em !important;
+}
+
+.cardbody:hover {
+    outline: #39A900 solid 1px;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, .2); 
+}
+
+.cardBodyDark {
+    background-color: #1F2937;
+}
+
+.cardBodyDark:has(p, h6) {
+    color: #fff;
+}
+
+.minihead {
+    width: 100%;
+    text-align: end;
+    padding: 1em 1em;
+}
+
+.minihead:first-child i {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #39A900;
+    border: 1px solid #fff;
+    padding: .3em;
+    transition: .1s ease;
+    border-radius: 50px;
+}
+
+.minihead i:hover {
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.imgContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContent img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    max-height: 200px;
+    cursor: pointer;
+}
+
+.infoContent {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.infoContent div:first-child {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: .5em 0;
+}
+
+.product-container-light {
+    width: 100%;
+    padding: 0px 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@media (max-width: 850px) {
+    .product-container-light {
+            padding-top: 40px !important;
+
+    }
+}
+
+.product-container-light img,
+.product-container-dark img {
+    width: 100%;
+    height: 70% !important;
+    object-fit: cover;
+}
+
+.footerInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
+}
+
+.footerInfo h6 {
+    font-size: 18px;
+    color: #39A900;
+    font-weight: bold;
+}
+
+.footerInfo span {
+    font-size: 13px;
+}
+
+.infoContent p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0; 
+}
+
+.footerInfo i {
+    font-size: 24px;
+    color: #39A900;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footerInfo div {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.headInfo-dark {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.headInfo-light {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.headInfo{
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: start !important;
+}
+
+.category {
+    color: #39A900;
+}
+
+.head-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .cardbody {
+        width: 320px;
+        margin: 2em;
+    }
+
+    .infoContent div:first-child {
+        flex-direction: row;
+    }
+
+    .product-container-light,
+    .product-container-dark {
+        flex-direction: row;
+    }
+    .footerInfo div {
+        align-items: start;
+        
+    }
+}

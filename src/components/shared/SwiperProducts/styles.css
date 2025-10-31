@@ -1,0 +1,33 @@
+.swiper {
+    margin: 0 auto 1em;
+    min-height: 40vh !important;
+    padding-top: 1em;
+    border-radius: 3.5px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-detail-product .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+}
+
+.contenedorSwiper {
+    position: absolute;
+    left: 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border-radius: 2.5px;
+    height: 40%;
+    width: 20%;
+}

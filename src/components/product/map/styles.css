@@ -1,0 +1,14 @@
+
+
+.titulo-sala-compra-dark, .titulo-sala-compra-light {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sub-titulo-sala-compra-dark, .sub-titulo-sala-compra-light {
+    font-size: 1rem;
+}
+
+.sub-titulo-sala-compra-dark, .titulo-sala-compra-dark {
+    color: #fff;
+}

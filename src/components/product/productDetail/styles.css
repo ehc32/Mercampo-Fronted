@@ -1,0 +1,59 @@
+.titleProductoPreview {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cantidadOrden {
+    width: 120px !important;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+}
+
+.cantidadOrden input {
+    text-align: center;
+    width: 50%;
+    outline: none;
+}
+
+.item-row {
+    width: 450px !important;
+    gap: 4em;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+    .item-row {
+        flex-direction: column;
+    }
+}
+
+.product-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.productCatn {
+    min-width: 100px;
+}
+
+.card2 {
+    background-color: #1F2937;
+}
+
+.color-light {
+    color: #000;
+}
+
+.color-dark {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.product-rating > span {
+    width: 5em;
+}

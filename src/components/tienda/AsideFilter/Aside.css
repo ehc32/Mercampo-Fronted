@@ -1,0 +1,176 @@
+.asideCard {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #2A2A2A !important;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+
+.asideCard.hide {
+    left: -250px;
+}
+
+.asideCard input[type="checkbox"] {
+    margin-right: 1em;
+}
+
+.input-text-check {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.8em;
+
+    align-items: center;
+}
+
+i {
+    width: 30px;
+}
+
+ul {
+    margin-left: 0.8em !important;
+}
+
+.box-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+.box-inputs input {
+    border: 1px solid #000;
+    padding: 0.2em;
+    max-width: 40% !important;
+    outline: none;
+    border-radius: 2px;
+}
+
+.busquedaAside {
+    padding: 0.5em 1em;
+    border-radius: 2.5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.busquedaAsideDark {
+    border: 1px solid #fff;
+}
+
+.cardTitles {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.dateField {
+    display: flex;
+    flex-direction: column;
+}
+
+.asideCard li p {
+    display: inline;
+}
+
+.asideCard li p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.asideBox li {
+    margin-bottom: 1em;
+}
+
+.asideCard {
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f0f0f0;
+}
+
+.asideBox {
+    margin-bottom: 20px;
+}
+
+.cardTitles {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.busquedaAside {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-inputs {
+    display: flex;
+    align-items: center;
+}
+
+.min-price,
+.max-price {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.bi-dash {
+    margin: 0 10px;
+}
+
+.nav-responsive {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-responsive .item-res {
+    height: 3em;
+}
+.nav-responsive {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .nav-responsive {
+        display: flex;
+    }
+}
+
+.nav_items_block {
+    display: block;
+}
+
+@media (max-width: 850px) {
+    .nav_items_block {
+        display: none;
+    }
+}
+
+.toggle-openaside {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .toggle-openaside {
+        display: block;
+    }
+}
+
+.bg-boton {
+    background-color: rgb(186, 7, 7) !important;
+}

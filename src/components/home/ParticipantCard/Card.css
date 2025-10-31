@@ -1,0 +1,82 @@
+.card-people {
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.card-people img {
+  border-radius: 7px;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-people h4 {
+  font-size: 18px;
+  margin-top: 0.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-people p {
+  font-size: 15px;
+  color: #666;
+}
+
+.popup {
+  position: absolute;
+  top: -10px;
+  left: 110%;
+  width: 200px;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  border-radius: 8px;
+}
+
+.popup h3 {
+  font-size: 16px;
+  margin-bottom: 0.5em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+  font-size: 24px;
+}
+
+.social-icons i {
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #007bff;
+}
+
+/* Dark mode styles */
+.card-people.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.card-people.dark-mode .popup {
+  background-color: #444;
+  color: white;
+  border-color: #555;
+}
+
+.card-people.dark-mode .social-icons i:hover {
+  color: #66b0ff;
+}
+

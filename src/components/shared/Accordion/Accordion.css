@@ -1,0 +1,16 @@
+.light-mode-accordion {
+    margin: .4em 0;
+}
+
+.boderacor {
+    border: #39A900 solid .5px;
+    border-radius: 5px;
+}
+
+.titleacor {
+    font-weight: bold;
+}
+
+.MuiAccordionSummary-gutters {
+    margin: 0 !important;
+}

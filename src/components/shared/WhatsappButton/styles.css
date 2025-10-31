@@ -1,0 +1,11 @@
+.float-wa {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
