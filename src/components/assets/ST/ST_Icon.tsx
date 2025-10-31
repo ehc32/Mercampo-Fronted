@@ -24,7 +24,7 @@ const ST_Icon = () => {
             <div className="h-full min-w-52 m-2 flex row whitespace-nowrap">
                 <img
                     className="h-10 w-auto lg:block mx-1 relative top-1"
-                    src="/public/lo.ico"
+                    src="/lo.ico"
                     alt="Logo SENA"
                 />
                 <HorizontalRuleIcon className='rotaricon' />

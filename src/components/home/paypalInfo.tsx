@@ -46,7 +46,7 @@ const PaypalIntro = () => {
             {/* Imagen a la derecha */}
             <div className="mt-4 lg:mt-0 lg:ml-6 flex justify-end m-auto">
               <img
-                src="/public/paypal_logo.png"
+                src="/Paypal_logo.png"
                 alt="Imagen de seguridad de PayPal"
                 className="h-32 w-auto mt-3 justify-between"
               />

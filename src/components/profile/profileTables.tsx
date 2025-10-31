@@ -149,7 +149,7 @@ function ProfileTables({ user, id }: ProfileTablesProps) {
         <div
           className="relative bg-cover bg-center h-56 md:h-64"
           style={{
-            backgroundImage: `url('/public/fondopan.png')`,
+            backgroundImage: `url('/fondopan.png')`,
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end items-center pb-14">

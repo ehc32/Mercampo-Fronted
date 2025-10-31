@@ -149,7 +149,7 @@ const AddEnterprise = () => {
         <div className="w-full p-4 md:p-10 card-bordered">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl md:text-3xl text-black font-bold">Crear mi empresa</h1>
-            <img src="/public/logoSena.png" alt="Logo-sena" className="h-12 md:h-16" />
+            <img src="/logoSena.png" alt="Logo-sena" className="h-12 md:h-16" />
           </div>
           <p className="my-2 text-black fs-16px">Para crear su empresa debe tener en cuenta que debe estar instituida o al menos enviar un comprobante de que su empresa realmente existe para poder ser tomada en cuenta, de otra manera se rechazará su solicitud de crear empresa.</p>
           <form onSubmit={manejarSubmit} className="space-y-2 md:space-y-6">

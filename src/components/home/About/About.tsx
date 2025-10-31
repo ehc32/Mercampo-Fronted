@@ -7,7 +7,7 @@ export default function Component() {
 
     return (
         <div className="contenedorabout p-4 " style={{ fontFamily: 'Nunito, sans-serif' }}>
-            <section className="w-full h-96 py-32 relative rounded-lg my-10 bg-cover" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/kkkk.jpeg')` }}>
+            <section className="w-full h-96 py-32 relative rounded-lg my-10 bg-cover" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/kkkk.jpeg')` }}>
                 <div className="w-full px-2 md:px-6">
                     <div className="max-w-3xl space-y-4 text-start text-primary-foreground">
                         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl" style={{ color: '#fff' }}>
@@ -18,7 +18,7 @@ export default function Component() {
                         </p>
                     </div>
                     <div className="absolute top-0 right-0 w-1/2 md:w-1/3 lg:w-1/4">
-                        <img src="/public/campesena.png" alt="Imagen de campesinos trabajando" className="w-auto h-auto  md:w-72 md:h-72 object-cover rounded-lg shadow-lg" />
+                        <img src="/campesena.png" alt="Imagen de campesinos trabajando" className="w-auto h-auto  md:w-72 md:h-72 object-cover rounded-lg shadow-lg" />
                     </div>
                 </div>
             </section>

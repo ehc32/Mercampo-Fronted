@@ -10,7 +10,8 @@ import { Visibility, VisibilityOff } from "@mui/icons-material"
 
 // Función para verificar el código y establecer la nueva contraseña
 const verifyResetCode = async (email: string, code: string, newPassword: string) => {
-  const response = await fetch("http://localhost:8000/users/password-reset/verify/", {
+  const API = import.meta.env.VITE_BACKEND_URL;
+  const response = await fetch(`${API}/users/password-reset/verify/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

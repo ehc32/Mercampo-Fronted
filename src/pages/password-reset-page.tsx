@@ -9,7 +9,8 @@ import { Button, Typography, CircularProgress } from "@mui/material"
 
 // Función para hacer la solicitud de restablecimiento de contraseña
 const requestPasswordReset = async (email: string) => {
-  const response = await fetch("http://localhost:8000/users/password-reset/request/", {
+  const API = import.meta.env.VITE_BACKEND_URL;
+  const response = await fetch(`${API}/users/password-reset/request/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

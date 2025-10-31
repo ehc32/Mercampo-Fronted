@@ -179,7 +179,7 @@ const AddProd = () => {
             <h1 className="text-2xl md:text-3xl text-black font-bold ">
               Añadir Producto
             </h1>
-            <img src="/public/logoSena.png" alt="Logo-sena" className="h-12 md:h-16" />
+            <img src="/logoSena.png" alt="Logo-sena" className="h-12 md:h-16" />
           </div>
 
           <form onSubmit={manejarSubmit} className="space-y-4 md:space-y-6">

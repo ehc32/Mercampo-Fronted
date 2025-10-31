@@ -35,8 +35,8 @@ const MercadoPagoIntro = () => {
           </div>
           <div className="mt-4 lg:mt-0 lg:ml-6 flex justify-end m-auto">
             <img
-              src="/public/mercadopago_logo.png"
-              alt="Logo Mercado Pago"
+              src="/Paypal_logo.png"
+              alt="Logo de pago"
               className="h-24 w-auto mt-3"
             />
           </div>

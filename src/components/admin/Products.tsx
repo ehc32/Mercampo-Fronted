@@ -296,7 +296,7 @@ const Products = ({ results }: Props) => {
         >
           {dataUser ? (
             <div className="text-center">
-              <img src={"./../../public/avatar.png"} alt="avatar" className="w-24 h-24 rounded-full mx-auto" />
+              <img src={"/avatar.png"} alt="avatar" className="w-24 h-24 rounded-full mx-auto" />
               <h2 className="text-xl font-bold mt-4">{dataUser.name}</h2>
               <p className="text-gray-600">{dataUser.email}</p>
               <p className="text-gray-600">{dataUser.phone}</p>

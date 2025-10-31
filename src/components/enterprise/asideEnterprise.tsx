@@ -190,7 +190,7 @@ const AsideEnterprise = ({ enterpriseData, onUpdate }: AsideEnterpriseProps) => 
                 <div className="enterprise-header">
                     <div className="enterprise-logo-container">
                         <img
-                            src={formData.avatar || "./../../../public/logoSena.png"}
+                            src={formData.avatar || "/logoSena.png"}
                             alt="Logo de la empresa"
                             className="enterprise-logo"
                         />

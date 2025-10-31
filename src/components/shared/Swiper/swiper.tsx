@@ -25,7 +25,7 @@ const MySwiper: React.FC<SwiperPropsP> = ({ width, height, datos, isUpSwiper }) 
     >
       {datos.map((producto, index) => (
         <SwiperSlide key={index}>
-          <img  src={producto.foto ? producto.foto : '/public/logoSena.png'} alt="alt" />
+          <img  src={producto.foto ? producto.foto : '/logoSena.png'} alt="alt" />
           {isUpSwiper && (
             <div className="contenedorSwiper">
               <p>

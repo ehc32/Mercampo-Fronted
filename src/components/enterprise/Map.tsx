@@ -47,7 +47,7 @@ const Map: React.FC<locationStatus> = ({ address }) => {
                 <Marker
                     position={{ lat: lat, lng: lng }}
                     icon={{
-                        url: '/public/logoSena.png',
+                        url: '/logoSena.png',
                         scaledSize: new window.google.maps.Size(40, 40),
                     }}
                 />

@@ -38,7 +38,7 @@ const Hero = () => {
     <section
       className="w-full  h-[55vh] bg-center flex flex-col justify-center items-center relative bg-no-repeat bg-cover"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url('/public/kaka.webp')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url('/kaka.webp')`
       }}>
       <div className="container mx-auto px-6 lg:px-12 text-left">
         <div className="max-w-lg">
