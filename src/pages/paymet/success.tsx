@@ -54,9 +54,10 @@ const PaymentSuccess = () => {
             }))
           }
 
-          // Fallback: disparar webhook para notificación server-to-server en pruebas
+          // Fallback: disparar webhook para notificación server-to-server
           try {
-            await fetch("https://99729b8625b9.ngrok-free.app/orders/payment/webhook/", {
+            const API = import.meta.env.VITE_BACKEND_URL || 'https://mercampo-backend-1.onrender.com'
+            await fetch(`${API}/orders/payment/webhook/`, {
               method: "POST",
               mode: "no-cors",
               headers: { "Content-Type": "application/json" },
