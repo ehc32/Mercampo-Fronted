@@ -4,8 +4,7 @@ import About from "../components/home/About/About";
 import Hero from "../components/home/Hero";
 // import Participants from "../components/home/Participants/Participants";
 import RandomProducts from "../components/home/RandomProducts";
-import PaypalIntro from "../components/home/paypalInfo";
-import MercadoPagoIntro from "../components/home/mercado-pago-intro";
+import PaymentsInfo from "../components/home/PaymentsInfo";
 import { CircularProgress, Box } from "@mui/material";
 
 export default function Tienda() {
@@ -62,10 +61,7 @@ export default function Tienda() {
         ) : (
           <RandomProducts productos={productosRandom as any} />
         )}
-        <div className="payment-intros">
-          <PaypalIntro />
-          <MercadoPagoIntro />
-        </div>
+        <PaymentsInfo />
         <About />
         {/* <Participants people={people} /> */}
       </div>

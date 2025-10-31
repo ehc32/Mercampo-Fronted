@@ -8,7 +8,7 @@ function logout() {
     window.location.href = '/login'
 }
 
-const baseURL = import.meta.env.VITE_BACKEND_URL
+const baseURL = import.meta.env.VITE_BACKEND_URL || 'https://mercampo-backend-1.onrender.com'
 
 export const axi = axios.create({
     baseURL
