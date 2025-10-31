@@ -278,7 +278,7 @@
 
 .banner {
     height: 300px;
-    background-image: url("./../../../public/fondo.jfif");
+    background-image: url('/fondo.jfif');
     background-repeat: no-repeat;
     background-size: contain;
 
