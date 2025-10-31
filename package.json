@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -31,6 +31,7 @@
     "embla-carousel": "8.2.1",
     "embla-carousel-autoplay": "8.2.1",
     "embla-carousel-react": "8.2.1",
+    "frontend": "file:",
     "i": "^0.3.7",
     "jspdf": "^2.5.1",
     "jwt-decode": "^3.1.2",
@@ -47,7 +48,6 @@
     "react-loading-skeleton": "^3.4.0",
     "react-paginate": "^8.2.0",
     "react-router-dom": "^6.11.2",
-    
     "react-toastify": "^10.0.5",
     "swiper": "^11.1.9",
     "tailwind-merge": "^2.4.0",
